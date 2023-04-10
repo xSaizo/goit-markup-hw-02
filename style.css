@@ -1,0 +1,263 @@
+/* BODY */
+body {
+  font-family: "Roboto";
+  color: #212121;
+}
+/* Studio page styles */
+
+/* Header */
+.header-studio > a {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
+}
+.header-studio > a > span {
+  color: #2196f3;
+}
+.header-studio .studio {
+  position: absolute;
+  width: 42px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.header-studio .portofolio {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 545px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.header-studio .contacts {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 653px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.header-adress .mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1097px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+.header-adress .tel {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 1272px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+
+nav .link:hover,
+nav .link:focus,
+.header-studio .header-adress:hover,
+.header-studio .header-adress:focus {
+  color: #2196f3;
+}
+
+header ul {
+  list-style-type: none;
+}
+/* Main */
+/* Hero section */
+.hero-section {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+#title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-section .button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* Ability section */
+
+.ability-section .first-title {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ability-section .first-description {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.ability-section .second-title {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ability-section .second-description {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.ability-section .third-title {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ability-section .third-description {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.ability-section .fourth-title {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ability-section .fourth-description {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.ability-section ul {
+  list-style-type: none;
+}
