@@ -94,16 +94,22 @@ body {
   text-decoration: none;
   color: #757575;
 }
+.header-studio ul {
+  list-style-type: none;
+}
+
 
 nav .link:hover,
 nav .link:focus,
-.header-studio .header-adress:hover,
-.header-studio .header-adress:focus {
+.header-studio .header-adress a:hover,
+.header-studio .header-adress a:focus {
   color: #2196f3;
 }
 
+
 header ul {
-  list-style-type: none;
+width: 1600px;
+height: 648px;
 }
 /* Main */
 /* Hero section */
@@ -260,4 +266,67 @@ header ul {
 }
 .ability-section ul {
   list-style-type: none;
+}
+/* "What we do" section */
+.what-we-do-section h2 {
+position: absolute;
+width: 198px;
+height: 42px;
+left: 701px;
+top: 969px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
+.what-we-do-section .first-photo {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+background: url(.jpg);
+mix-blend-mode: normal;
+}
+.what-we-do-section .second-photo{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+background: url(.jpg)
+}
+.what-we-do-section .third-photo{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+background: url(.jpg);
+}
+.what-we-do-section ul {
+  list-style-type: none;
+}
+/* Our team section */
+.our-team-section {
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: #F5F4FA;
+}
+
+.our-team-section .christopher-card {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
