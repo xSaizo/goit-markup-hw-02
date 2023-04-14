@@ -1,92 +1,47 @@
-/* BODY */
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@600&family=Montserrat:ital,wght@0,400;1,700&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+/* General Styles */
 body {
   font-family: "Roboto";
   color: #212121;
 }
-/* Studio page styles */
-
-/* Header */
-.header-studio > a {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+p {
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+ul {
+  list-style-type: none;
+}
+/* Header Section Styles */
+.webstudio-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #212121;
+  color: #000;
 }
-.header-studio > a > span {
+.web {
   color: #2196f3;
 }
-.header-studio .studio {
-  position: absolute;
-  width: 42px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  font-style: normal;
+.nav-links a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
 }
-.header-studio .portofolio {
-  position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 545px;
-  top: 32px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #212121;
-}
-.header-studio .contacts {
-  position: absolute;
-  width: 59px;
-  height: 16px;
-  left: 653px;
-  top: 32px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #212121;
-}
-.header-adress .mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1097px;
-  top: 32px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #757575;
-}
-.header-adress .tel {
-  position: absolute;
-  width: 113px;
-  height: 16px;
-  left: 1272px;
-  top: 32px;
-  font-style: normal;
+.header-adress a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -95,34 +50,40 @@ body {
   color: #757575;
 }
 
-nav .link:hover,
-nav .link:focus,
-.header-studio .header-adress:hover,
-.header-studio .header-adress:focus {
+.nav-links a:hover,
+.nav-links a:focus,
+.header-adress a:hover,
+.header-adress a:focus {
   color: #2196f3;
 }
-
-header ul {
-  list-style-type: none;
-}
-/* Main */
-/* Hero section */
-.hero-section {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+/* Footer Section Styles */
+.footer-section {
   background: #2f303a;
 }
-#title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-family: "Roboto";
-  font-style: normal;
+.efective-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+address a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+  text-decoration: none;
+}
+address a:hover,
+address a:focus {
+  color: #ffffff;
+}
+/* INDEX.HTLM PAGE Styles */
+/* Hero Section Styles */
+
+.hero-section {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -130,134 +91,75 @@ header ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  background: #2f303a;
 }
-
 .hero-section .button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: #2196f3;
 }
-/* Ability section */
+/* Ability Section Styles */
+.ability-section h3 {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.ability-section p {
+  font-size: 14px;
+  line-height: 24px;
+}
+/* "What we do" Section Styles */
+.what-we-do-section > h2 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+/* Our team Section Styles */
+.our-team-section {
+  background-color: #f5f4fa;
+}
+.our-team-section h2 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.our-team-section h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.our-team-section p {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+/* PORTFOLIO PAGE Styles*/
 
-.ability-section .first-title {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+/* Main Section Styles */
+
+.portfolio-buttons button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  background: #f5f4fa;
 }
-.ability-section .first-description {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 800px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+.portfolio-buttons button:hover,
+.portfolio-buttons button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
-.ability-section .second-title {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 774px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.all-filters h4 {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
-.ability-section .second-description {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 800px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.ability-section .third-title {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 774px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.ability-section .third-description {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 815px;
-  top: 800px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.ability-section .fourth-title {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 1115px;
-  top: 774px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.ability-section .fourth-description {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 1115px;
-  top: 800px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.ability-section ul {
-  list-style-type: none;
+.all-filters p {
+  font-size: 16px;
+  line-height: 30px;
 }
