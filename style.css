@@ -18,6 +18,9 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
 }
+button {
+  cursor: pointer;
+}
 ul {
   list-style-type: none;
 }
@@ -26,7 +29,7 @@ ul {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.84;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000;
@@ -37,7 +40,7 @@ ul {
 .nav-links a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.88;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
@@ -45,7 +48,7 @@ ul {
 .header-adress a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.88;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
@@ -64,7 +67,7 @@ ul {
 .efective-address {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
@@ -73,7 +76,7 @@ address a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #ffffff99;
   text-decoration: none;
@@ -88,7 +91,7 @@ address a:focus {
 .hero-section {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.73;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -98,7 +101,7 @@ address a:focus {
 .hero-section .button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.53;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -107,17 +110,17 @@ address a:focus {
 /* Ability Section Styles */
 .ability-section h3 {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.88;
   text-transform: uppercase;
 }
 .ability-section p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.58;
 }
 /* "What we do" Section Styles */
 .what-we-do-section > h2 {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.86;
   text-align: center;
 }
 /* Our team Section Styles */
@@ -126,18 +129,18 @@ address a:focus {
 }
 .our-team-section h2 {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.86;
   text-align: center;
 }
 .our-team-section h4 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.84;
   text-align: center;
 }
 .our-team-section p {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.84;
   text-align: center;
 }
 /* PORTFOLIO PAGE Styles*/
@@ -147,7 +150,7 @@ address a:focus {
 .portfolio-buttons button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   background: #f5f4fa;
 }
@@ -158,10 +161,10 @@ address a:focus {
 }
 .all-filters h4 {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 1.45;
   letter-spacing: 0.06em;
 }
 .all-filters p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.53;
 }
